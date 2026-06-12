@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- PROJECT BANNER -->
-<img src="banner.png" alt="AquaPurify-RL Banner" width="100%"/>
+<img src="banner.svg" alt="AquaPurify-RL Banner" width="100%"/>
 
 <br/>
 
