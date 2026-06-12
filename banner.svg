@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#030a1a"/>
+      <stop offset="100%" style="stop-color:#0a1e3d"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0066cc;stop-opacity:0.3"/>
+      <stop offset="50%" style="stop-color:#00aaff;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#0066cc;stop-opacity:0.3"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff"/>
+      <stop offset="100%" style="stop-color:#0080ff"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <!-- Wave layers -->
+  <path d="M0,220 C200,180 400,260 600,220 C800,180 1000,260 1200,220 L1200,300 L0,300 Z" fill="url(#wave)" opacity="0.4"/>
+  <path d="M0,240 C300,200 500,280 700,240 C900,200 1100,270 1200,240 L1200,300 L0,300 Z" fill="#00aaff" opacity="0.1"/>
+  <!-- Neural network dots -->
+  <circle cx="50"  cy="80"  r="3" fill="#00d4ff" opacity="0.6" filter="url(#glow)"/>
+  <circle cx="120" cy="50"  r="2" fill="#0080ff" opacity="0.5"/>
+  <circle cx="80"  cy="130" r="2" fill="#00aaff" opacity="0.4"/>
+  <circle cx="1100" cy="70"  r="3" fill="#00d4ff" opacity="0.6" filter="url(#glow)"/>
+  <circle cx="1150" cy="120" r="2" fill="#0080ff" opacity="0.5"/>
+  <circle cx="1050" cy="100" r="2" fill="#00aaff" opacity="0.4"/>
+  <!-- Connecting lines (neural net aesthetic) -->
+  <line x1="50" y1="80" x2="120" y2="50" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <line x1="50" y1="80" x2="80" y2="130" stroke="#0080ff" stroke-width="0.5" opacity="0.3"/>
+  <line x1="1100" y1="70" x2="1150" y2="120" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <line x1="1100" y1="70" x2="1050" y2="100" stroke="#0080ff" stroke-width="0.5" opacity="0.3"/>
+  <!-- Droplet icon -->
+  <path d="M560,60 Q560,40 575,55 Q600,30 600,80 Q600,110 575,115 Q550,110 550,80 Q550,55 560,60 Z" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.8" filter="url(#glow)"/>
+  <path d="M570,75 Q575,65 580,75 Q585,90 575,95 Q565,90 570,75 Z" fill="#00d4ff" opacity="0.4"/>
+  <!-- Main title -->
+  <text x="620" y="105" font-family="'Segoe UI', Arial, sans-serif" font-size="52" font-weight="700" fill="url(#titleGrad)" filter="url(#glow)">AquaPurify-RL</text>
+  <!-- Subtitle -->
+  <text x="620" y="145" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="300" fill="#7ab8d4" letter-spacing="1">AI-Driven Real-Time Adaptive Water Purification</text>
+  <!-- Tech badges row -->
+  <rect x="620" y="165" width="90"  height="24" rx="12" fill="#0d2a44" stroke="#00d4ff" stroke-width="1"/>
+  <text x="665" y="181" font-family="Arial" font-size="11" fill="#00d4ff" text-anchor="middle">Deep RL</text>
+  <rect x="720" y="165" width="90"  height="24" rx="12" fill="#0d2a44" stroke="#00aaff" stroke-width="1"/>
+  <text x="765" y="181" font-family="Arial" font-size="11" fill="#00aaff" text-anchor="middle">Digital Twin</text>
+  <rect x="820" y="165" width="70"  height="24" rx="12" fill="#0d2a44" stroke="#00e676" stroke-width="1"/>
+  <text x="855" y="181" font-family="Arial" font-size="11" fill="#00e676" text-anchor="middle">XAI</text>
+  <rect x="900" y="165" width="80"  height="24" rx="12" fill="#0d2a44" stroke="#ffab40" stroke-width="1"/>
+  <text x="940" y="181" font-family="Arial" font-size="11" fill="#ffab40" text-anchor="middle">IoT Edge</text>
+  <rect x="990" y="165" width="90"  height="24" rx="12" fill="#0d2a44" stroke="#ea80fc" stroke-width="1"/>
+  <text x="1035" y="181" font-family="Arial" font-size="11" fill="#ea80fc" text-anchor="middle">LLM + MARL</text>
+  <!-- Stats row -->
+  <text x="620" y="220" font-family="Arial" font-size="13" fill="#5588aa">
+    <tspan font-weight="700" fill="#00e676">98.7%</tspan> WHO Compliance ·
+    <tspan font-weight="700" fill="#00d4ff">23%</tspan> Energy Reduction ·
+    <tspan font-weight="700" fill="#ffab40">SAC 0.943</tspan> Quality Score ·
+    <tspan font-weight="700" fill="#ea80fc">MIT License</tspan>
+  </text>
+  <!-- Border glow -->
+  <rect x="1" y="1" width="1198" height="298" rx="0" fill="none" stroke="#00aaff" stroke-width="1" opacity="0.2"/>
+</svg>

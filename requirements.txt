@@ -1,0 +1,171 @@
+# =============================================================================
+# AquaPurify-RL: AI-Driven Real-Time Adaptive Water Purification
+# Requirements File — Production Grade
+# =============================================================================
+
+# ── Core Scientific Stack ──────────────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# ── Deep Learning Frameworks ──────────────────────────────────────────────
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+tensorflow>=2.13.0
+keras>=2.13.0
+
+# ── Reinforcement Learning ─────────────────────────────────────────────────
+stable-baselines3>=2.1.0
+gymnasium>=0.29.0
+gym>=0.26.0
+ray[rllib]>=2.6.0
+tianshou>=0.5.3
+
+# ── Multi-Agent RL ─────────────────────────────────────────────────────────
+pettingzoo>=1.24.0
+supersuit>=3.9.0
+agilerl>=0.1.22
+
+# ── Time-Series Forecasting ────────────────────────────────────────────────
+statsmodels>=0.14.0
+prophet>=1.1.4
+neuralprophet>=0.7.0
+darts>=0.25.0
+pytorch-forecasting>=1.0.0
+pytorch-lightning>=2.0.0
+
+# ── Transformers / LLM ────────────────────────────────────────────────────
+transformers>=4.33.0
+tokenizers>=0.13.0
+sentence-transformers>=2.2.0
+langchain>=0.0.300
+langchain-community>=0.0.10
+openai>=1.0.0
+anthropic>=0.7.0
+huggingface_hub>=0.17.0
+
+# ── Explainable AI ────────────────────────────────────────────────────────
+shap>=0.42.0
+lime>=0.2.0.1
+eli5>=0.13.0
+captum>=0.6.0
+alibi>=0.9.0
+
+# ── Anomaly Detection ─────────────────────────────────────────────────────
+pyod>=1.1.0
+isolation-forest>=0.0.3
+adtk>=0.6.2
+
+# ── Computer Vision ───────────────────────────────────────────────────────
+opencv-python>=4.8.0
+Pillow>=10.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+albumentations>=1.3.0
+
+# ── IoT / Edge / Streaming ────────────────────────────────────────────────
+paho-mqtt>=1.6.1
+confluent-kafka>=2.2.0
+aiokafka>=0.8.1
+asyncio-mqtt>=0.16.0
+pyserial>=3.5
+
+# ── API / Web Framework ───────────────────────────────────────────────────
+fastapi>=0.103.0
+uvicorn>=0.23.0
+pydantic>=2.3.0
+httpx>=0.24.0
+aiohttp>=3.8.0
+websockets>=11.0
+starlette>=0.27.0
+
+# ── Dashboard ─────────────────────────────────────────────────────────────
+streamlit>=1.27.0
+dash>=2.13.0
+gradio>=3.44.0
+bokeh>=3.2.0
+
+# ── Database / Storage ────────────────────────────────────────────────────
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+psycopg2-binary>=2.9.7
+redis>=5.0.0
+pymongo>=4.5.0
+influxdb-client>=1.37.0
+aioredis>=2.0.1
+elasticsearch>=8.9.0
+
+# ── Cloud / MLOps ─────────────────────────────────────────────────────────
+mlflow>=2.7.0
+dvc>=3.20.0
+wandb>=0.15.0
+optuna>=3.3.0
+hyperopt>=0.2.7
+boto3>=1.28.0
+azure-storage-blob>=12.17.0
+google-cloud-storage>=2.10.0
+
+# ── Digital Twin / Simulation ─────────────────────────────────────────────
+simpy>=4.1.1
+mesa>=2.0.0
+networkx>=3.1
+
+# ── Optimization ──────────────────────────────────────────────────────────
+cvxpy>=1.3.0
+pyomo>=6.6.0
+scipy>=1.11.0
+deap>=1.4.1
+pymoo>=0.6.1
+
+# ── Monitoring / Observability ────────────────────────────────────────────
+prometheus-client>=0.17.0
+grafana-api>=1.0.3
+opentelemetry-api>=1.20.0
+opentelemetry-sdk>=1.20.0
+loguru>=0.7.0
+structlog>=23.1.0
+rich>=13.5.0
+
+# ── Data Ingestion / Processing ───────────────────────────────────────────
+apache-airflow>=2.7.0
+prefect>=2.13.0
+dask>=2023.9.0
+polars>=0.18.0
+pyarrow>=13.0.0
+h5py>=3.9.0
+netcdf4>=1.6.4
+
+# ── Testing ───────────────────────────────────────────────────────────────
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.0
+hypothesis>=6.82.0
+faker>=19.3.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+toml>=0.10.2
+click>=8.1.7
+tqdm>=4.66.0
+joblib>=1.3.0
+psutil>=5.9.5
+schedule>=1.2.0
+APScheduler>=3.10.4
+cryptography>=41.0.0
+python-jose>=3.3.0
+passlib>=1.7.4
+bcrypt>=4.0.1
+
+# ── Documentation ─────────────────────────────────────────────────────────
+mkdocs>=1.5.0
+mkdocs-material>=9.3.0
+sphinx>=7.2.0
+sphinx-rtd-theme>=1.3.0
+nbsphinx>=0.9.3
